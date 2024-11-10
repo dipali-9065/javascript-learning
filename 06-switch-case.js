@@ -36,3 +36,11 @@ function dayOfTheWeek(dayNumber){
  dayOfTheWeek(0);
  dayOfTheWeek(6);
  dayOfTheWeek(10);
+
+
+
+
+ for (let index = 50; index >= 20; index=index-2) {
+   console.log(index)
+    
+ }
