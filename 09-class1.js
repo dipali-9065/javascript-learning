@@ -1,7 +1,9 @@
 // Class is the Blueprint or Design or Template
 
 class Student{
-     // Data Member
+
+    // Data Member
+
     // Constructor 
 
     constructor(fullName, city, age, isMarried){
@@ -13,11 +15,27 @@ class Student{
         this.age = age;
 
         this.isMarried = isMarried;
+
+    }
+// Member Function or methods
+
+    details(){
+
+        console.log(`==== Students ${this.fullName} Details ====== `);
+
+        console.log(`City: ${this.city}, AGE: ${this.age}, Is Married: ${this.isMarried}`);  
+
     }
 
-    // Member Function or methods
 }
 const stdElon = new Student("Elon Musk", "LA", 22, true);
-console.log(stdElon);
+
+stdElon.details();
+
+//console.log(stdElon.fullName);
+// console.log(stdElon);
 const stdStew = new Student("Stew Job", "Pune", 56, false);
-console.log(stdStew);
+
+// console.log(stdStew);
+
+stdStew.details();

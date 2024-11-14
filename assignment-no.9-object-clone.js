@@ -46,11 +46,11 @@ console.log(sbidetails);
 
 console.log("-----Traverse of sbi details using for in loop----");
 
-for (const key in sbidetails) {
-    if (sbidetails.hasOwnProperty(key)) {  // Make sure it's not an inherited property
-      const value = sbidetails[key];  // Access the value using the key
+for (const key in sbidetails) 
+{  
+      const value = sbidetails[key];  
       console.log(`${key}=> ${value}`);
-    }}
+    }
 
 
 
