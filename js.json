@@ -1,0 +1,42 @@
+const studentData =`{
+    "fristName":"Elon",
+    "age":45,
+    "city":"LA",
+    "isMarried": true,
+    "skills":["HTML","CSS","JS","ML AI"],
+    "marks":{
+      "PHY": 90,
+      "ENG": 60,
+      "MATH": 90
+    },
+    "weight": null
+  }`;
+  console.log(==========Json String to object conversion==========);
+  console.log(typeof studentData);
+  const studentDataInObjectForm=JSON.parse(studentData);
+  console.log(typeof studentDataInObjectForm);
+  console.log(studentDataInObjectForm);
+  console.log(studentDataInObjectForm.skills);
+  console.log(studentDataInObjectForm.city);
+  
+  console.log(======object to json string conversion=======);
+  
+  let studentJenny = {
+      fullName : "Jenny",
+      email: "jenny@gmail.com",
+      qualification: "BE CSC",
+      isMarried: true,
+      age: 55,
+      hobbies: ["Traveling", "Programming", "Reading"],
+      marks: {
+          physics: 90,
+          maths: 67,
+          programming: 89,
+          socialScience: 78 
+  
+      }
+  }
+  
+    const studentJennyJson= JSON.stringify(studentJenny);
+    console.log(studentJennyJson);
+    console.log(typeof studentJennyJson);
