@@ -1,6 +1,8 @@
 
 console.log("==== no argument and no return any value");
 
+
+
 let greet=()=>
 {
     console.log("Good Morning , Today is Friday");
@@ -8,7 +10,11 @@ let greet=()=>
 }
 greet();
 
+
+
 console.log("==== with arguments and no return any value====");
+
+
 
 let multiplication=(n1,n2,n3)=>
     {
@@ -27,6 +33,9 @@ let multiplication=(n1,n2,n3)=>
         multiplication1(10,4,1);
 
 
+
+
+
         console.log("==== function with 5 argument====");
 
 
@@ -40,6 +49,8 @@ let multiplication=(n1,n2,n3)=>
 
        
          console.log("====The concetation of string====");
+
+
 
          let conact = (str1, str2, str3, str4, str5) => {
         let result1 = str1 + str2 + str3 + str4 + str5;  

@@ -21,3 +21,4 @@ console.log(fullName, age, skill, pin, isMarried);
 
 
 
+
